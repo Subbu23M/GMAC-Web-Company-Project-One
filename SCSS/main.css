@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #F2EEE6;
+}
+
+li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+header .social-media-icons a, #footer .social-media-icons a {
+  color: #FDA015;
+}
+
+header .social-media-icons a:hover, #footer .social-media-icons a:hover {
+  color: whitesmoke;
+}
+
+header .contact-details a, #footer .contact-details a {
+  color: whitesmoke;
+}
+
+header .contact-details a:hover, #footer .contact-details a:hover {
+  color: lightblue;
+}
+
+.color {
+  border-bottom: 2px solid #FDA015;
+}
+
+@media only screen and (max-width: 600px) {
+  .color {
+    display: none;
+  }
+}
+
+.linkcolor {
+  color: #FDA015 !important;
+}
+
+.linkcolor:hover {
+  color: lightsteelblue !important;
+}
+
+#banner {
+  margin: 0 -20px 0 -20px;
+}
+
+#choose {
+  background-color: black;
+}
+
+#choose .style-title {
+  color: #FF9D09;
+}
+
+#choose .fa-calendar-alt, #choose .fa-industry, #choose .fa-user-friends {
+  width: 25%;
+  height: 30%;
+  background-color: #FF9D09;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+#services .underline-one {
+  width: 210px;
+  height: .4rem;
+  background-color: #FF9D09;
+}
+
+.btn-warning:hover {
+  background-color: #FF9D09;
+}
+
+#clients .underline-one {
+  width: 310px;
+  height: .4rem;
+  background-color: #FF9D09;
+}
+
+#work .underline-one {
+  width: 290px;
+  height: .4rem;
+  background-color: #FF9D09;
+}
+
+#footer {
+  background-color: black;
+}
+
+#footer h5, #footer .small-text {
+  color: #FF9D09;
+}
+
+#footer a {
+  color: whitesmoke;
+}
+
+.footer-dev hr {
+  border: 2px solid #FF9D09;
+  height: 45%;
+  width: 100%;
+  background-color: black;
+}
+
+.fixed-icons {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  /* z-index:stacks one on each other based on value  */
+  z-index: 100;
+}
+
+.fixed-icons ul {
+  padding: initial;
+}
+
+.fixed-icons ul li {
+  width: 60px;
+  height: 45px;
+  padding-left: 8px;
+  padding-top: 5px;
+  margin-top: 7px;
+}
+
+.fixed-icons .fa-facebook:hover {
+  background-color: linen;
+}
+
+.fixed-icons .fa-whatsapp:hover {
+  background-color: lightyellow;
+}
+/*# sourceMappingURL=main.css.map */

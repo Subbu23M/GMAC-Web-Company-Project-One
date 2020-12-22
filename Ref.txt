@@ -1,0 +1,35 @@
+Google Fonts
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+font-family: 'Poppins', sans-serif;
+
+//Contact Number:+91- 8447 027 889
+//Email-id:info@gmacwebindia.com
+
+Structure of Home Page
+
+navbar-1
+navbar-2
+Banner (Carousel)
+Why Choose Us
+Sticky Social-media-profiles
+Our Services
+Our Happiest Clients
+Our Work
+Footer - 4 columns 
+
+<i class="fas fa-industry"></i>
+<i class="fas fa-mobile-alt"></i>
+<i class="fas fa-laptop-code"></i>
+<i class="fas fa-pencil-alt"></i>
+
+:root {
+    --head-color: #fda015;
+    --background: #F2EEE6;
+    --btn-color: #ff9d09;
+    --icons: #fda015;
+}
+
+.coral {
+    color: rgb(250, 101, 47);
+}

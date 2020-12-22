@@ -1,0 +1,126 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: whitesmoke;
+}
+
+li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+header .social-media-icons a, #footer .social-media-icons a {
+  color: #FDA015;
+}
+
+header .social-media-icons a:hover, #footer .social-media-icons a:hover {
+  color: whitesmoke;
+}
+
+header .contact-details a, #footer .contact-details a {
+  color: whitesmoke;
+}
+
+header .contact-details a:hover, #footer .contact-details a:hover {
+  color: lightblue;
+}
+
+#banner {
+  background: url(../Images/Banners/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+#banner .space {
+  margin-top: 30vh;
+}
+
+.color {
+  border-bottom: 2px solid #FDA015;
+}
+
+@media only screen and (max-width: 600px) {
+  .color {
+    display: none;
+  }
+}
+
+.linkcolor {
+  color: #FDA015 !important;
+}
+
+.linkcolor:hover {
+  color: lightsteelblue !important;
+}
+
+#footer {
+  background-color: black;
+}
+
+#footer h5, #footer .small-text {
+  color: #FF9D09;
+}
+
+#footer a {
+  color: whitesmoke;
+}
+
+.footer-dev hr {
+  border: 2px solid #FF9D09;
+  height: 45%;
+  width: 100%;
+  background-color: black;
+}
+
+.fixed-icons {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 100;
+  background-color: lightyellow;
+}
+
+.fixed-icons ul {
+  padding: initial;
+}
+
+.fixed-icons ul li {
+  width: 60px;
+  height: 45px;
+  padding-left: 8px;
+  padding-top: 5px;
+  margin-top: 7px;
+}
+
+.fixed-icons .fa-facebook:hover {
+  background-color: linen;
+}
+
+.fixed-icons .fa-whatsapp:hover {
+  background-color: lightyellow;
+}
+/*# sourceMappingURL=service-1.css.map */

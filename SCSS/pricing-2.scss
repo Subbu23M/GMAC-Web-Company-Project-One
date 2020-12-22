@@ -1,0 +1,169 @@
+// Colors
+$Social-media-icons-color:#FDA015;
+
+$buttonColor:#FF9D09;
+
+// Universal Effects
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+button:focus{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+// Styles for nav-1
+header,#footer{
+
+    .social-media-icons{
+
+        a{
+            color: $Social-media-icons-color;
+        }
+
+        a:hover{
+            color: whitesmoke;
+        }
+
+    }
+
+    .contact-details{
+        a{
+            color: whitesmoke;
+        }
+
+        a:hover{
+            color: lightblue;
+        }
+
+    }
+
+}
+
+// Added classes through jQuery
+.color{
+    // border-bottom:size style color
+    border-bottom: 2px solid $Social-media-icons-color;
+}
+
+// Media Queries
+
+@media only screen and (max-width:600px){
+    .color{
+        display: none;
+    }
+
+}
+
+.linkcolor{
+    color: $Social-media-icons-color!important;
+}
+
+.linkcolor:hover{
+    color: lightsteelblue!important;
+}
+
+// For Plans Title
+#plan{
+    .min-height{
+        min-height: 40vh;
+        background-color: #191716;
+        color: white;
+        padding-top: 7rem;
+    }
+}
+
+// For Table-info
+#table-info{
+    table{
+        .tablebg{
+            background-color: #240046;
+        }
+
+        .thg{
+            background-color: goldenrod;
+        }
+
+    }
+}
+
+
+// For footer
+#footer{
+    background-color: black;
+
+    h5,.small-text{
+        color: $buttonColor;
+    }
+
+    a{
+        color: whitesmoke;
+    }
+}
+
+// For hr
+.footer-dev{
+
+    hr{
+        // border:size style color
+        border: 2px solid $buttonColor;
+    
+        height: 45%;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+// For fixed icons
+.fixed-icons{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 100;
+    background-color: lightyellow;
+    display: none;
+
+    ul{
+        padding: initial;
+        
+        li{
+            width: 60px;
+            height: 45px;
+            padding-left: 8px;
+            padding-top: 5px;
+            margin-top: 7px;
+        }
+    }
+
+    .fa-facebook:hover{
+        background-color: linen;
+    }
+
+    .fa-whatsapp:hover{
+        background-color: lightyellow;
+    }
+}

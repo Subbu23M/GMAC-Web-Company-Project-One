@@ -1,0 +1,207 @@
+// Colors
+$Social-media-icons-color:#FDA015;
+
+$buttonColor:#FF9D09;
+
+// Universal Effects
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+button:focus{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+// Styles for nav-1
+header,#footer{
+
+    .social-media-icons{
+
+        a{
+            color: $Social-media-icons-color;
+        }
+
+        a:hover{
+            color: whitesmoke;
+        }
+
+    }
+
+    .contact-details{
+        a{
+            color: whitesmoke;
+        }
+
+        a:hover{
+            color: lightblue;
+        }
+
+    }
+
+}
+
+// For banner
+#banner{
+    background: url(../Images/Banners/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    // The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+
+    // If we use object-fit: cover; it will cut off the sides of the image, preserving the aspect ratio, and also filling in the space.
+    background-size: cover;
+
+    min-height: 50vh;
+
+    .space{
+        margin-top: 20vh;
+    }
+}
+
+// success story
+#success{
+
+    h3{
+
+        &::before{
+            content: '';
+
+            // border-left:size style color
+            border-left: 5px solid $buttonColor;
+
+            margin-right: 8px;
+
+        }
+    }  
+        
+}
+
+// Team section
+#team{
+    .underline-team{
+        width: 250px;
+        height: .4rem;
+        background-color: $buttonColor;
+    }
+}
+
+// For why choose us section
+#choose{
+
+    .style-title{
+        color: $buttonColor;
+    }
+
+    .fa-calendar-alt,.fa-industry,.fa-user-friends{
+        width: 25%;
+        height: 50%;
+        background-color: $buttonColor;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+}
+
+// Added classes through jQuery
+.color{
+    // border-bottom:size style color
+    border-bottom: 2px solid $Social-media-icons-color;
+}
+
+// Media Queries
+
+@media only screen and (max-width:600px){
+    .color{
+        display: none;
+    }
+
+}
+
+.linkcolor{
+    color: $Social-media-icons-color!important;
+}
+
+.linkcolor:hover{
+    color: lightsteelblue!important;
+}
+
+// For footer
+#footer{
+    background-color: black;
+
+    h5,.small-text{
+        color: $buttonColor;
+    }
+
+    a{
+        color: whitesmoke;
+    }
+}
+
+// For hr
+.footer-dev{
+
+    hr{
+        // border:size style color
+        border: 2px solid $buttonColor;
+    
+        height: 45%;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+// For fixed icons
+.fixed-icons{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    /* z-index:stacks one on each other based on value  */
+    z-index: 100;
+
+    background-color: lightyellow;
+
+    ul{
+        // padding:initial means padding - top right bottom and left values equals to zero.
+        padding: initial;
+        
+        li{
+            width: 60px;
+            height: 45px;
+            padding-left: 8px;
+            padding-top: 5px;
+            margin-top: 7px;
+        }
+    }
+    // .fa-facebook:hover{
+    //     background-color: linen;
+    // }
+
+    // .fa-whatsapp:hover{
+    //     background-color: lightyellow;
+    // }
+}
