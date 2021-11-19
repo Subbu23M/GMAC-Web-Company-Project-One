@@ -10,4 +10,5 @@
 ---
 
  **I used Vercel to host this website**
-    * URL Address : [Project-One](https://gmac-web-company-project-one.vercel.app/)
+ 
+* URL Address : [Project-One](https://gmac-web-company-project-one.vercel.app/)
